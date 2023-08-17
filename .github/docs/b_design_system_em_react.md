@@ -6,3 +6,6 @@
   
 - `export type ButtonProps = ComponentProps<typeof Button>` - extrai as propriedades que um componente nativamente pode receber
 - `tokens: Record<string, string>` - tipagem de um objeto com uma chave e um conteúdo
+
+
+## Para que serve o `turborepo`?
