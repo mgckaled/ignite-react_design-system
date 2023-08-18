@@ -5,6 +5,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
+  tags: ['autodocs'],
   args: {
     children: 'Custom title',
   },

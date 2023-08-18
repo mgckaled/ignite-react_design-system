@@ -3,7 +3,9 @@
 import { themes } from "@storybook/theming"
 
 export const preview = {
-
+  backgrounds: {
+    default: themes.dark
+  },
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {

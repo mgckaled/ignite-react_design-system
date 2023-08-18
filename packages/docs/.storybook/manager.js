@@ -1,7 +1,6 @@
-import { addons } from "@storybook/addons"
+import { addons } from "@storybook/manager-api"
 import { themes } from "@storybook/theming"
 
-// adicionar dark theme
 addons.setConfig({
   theme: themes.dark,
 })
